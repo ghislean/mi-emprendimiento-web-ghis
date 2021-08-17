@@ -1,0 +1,31 @@
+.footer {
+    padding: 3rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: space-between;
+    font-family: 'ubuntu';
+    color: $white;
+    background-color:$black;
+    height: 10vh;
+
+    .footer__list {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:flex-end;
+        align-items: flex-end;
+        align-content: space-between;
+        margin-left: auto;
+    }
+
+    .footer__li{
+        padding: 0 1rem;
+    }
+
+      
+    .boton {
+        background-color: $tangerine;
+        border: 2px solid $tangerine;
+    } 
+}

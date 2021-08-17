@@ -1,0 +1,28 @@
+.navbar {
+    background-color: $black;
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+    color: $white;
+
+    &__logo {
+        img {
+            width:40px;
+            height: 40px;
+        }
+    }
+    &__container {
+        display: flex;
+        justify-content:flex-end;
+        flex-grow: 1;
+    }
+
+    &__list{
+        display:flex;
+        .navbar__item{
+            padding: 0 1rem;
+        }
+    }
+    
+}

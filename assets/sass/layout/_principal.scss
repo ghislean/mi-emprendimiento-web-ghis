@@ -1,0 +1,39 @@
+.bordered {
+    border: 1px solid;
+    padding: 0.5rem;
+}
+.principal__img{
+    
+     width: 100%;
+     height: auto;
+     img {
+         width: 100%;
+     }
+}
+.principal__img-circle{
+    text-align: center;
+    img {
+        border: 1px solid;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+}
+.centered {
+    text-align: center;
+    font-family: 'ubuntu';
+}
+.titles{
+    font-family: 'ubuntu';
+}
+.mascursos {
+    font-family: 'ubuntu';
+    text-align: center;
+    background-color: $charcoal;
+    color: $white;
+}
+.instructor {
+    font-family: 'ubuntu';
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,45 @@
+.principal__svg {
+  text-align: center;
+    svg{
+      max-height: 300px;
+    }
+    .etiqueta{
+      animation-name: mover;
+      animation-duration: 3s;
+      animation-timing-function: ease-in;
+      animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+      animation-fill-mode: both;
+    } 
+    .engranaje{
+      transform-box: fill-box;
+      transform-origin: 50% 50%;
+      animation-name: spin;
+      animation-duration: 3s;
+      animation-iteration-count:infinite ;
+    } 
+}
+
+      @keyframes mover {
+        0% {
+          transform: translateX(0px);
+          
+         
+        }
+        50%{
+          transform: translateX(100px);
+          
+        }
+        100% {
+          transform: translateX(0px);
+         
+        }
+     
+}
+@keyframes spin { 
+  from { 
+      transform: rotate(0deg); 
+  } to { 
+      transform: rotate(360deg); 
+  }
+}
